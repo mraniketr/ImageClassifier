@@ -1,7 +1,7 @@
 # Outputs
 
 # NLP Emoji
-![NLP OP](https://i.imgur.com/pk2hx7i.png)
+![NLP OP](https://i.imgur.com/XeD2lNi.png)
 
 
 # ImageClassifier

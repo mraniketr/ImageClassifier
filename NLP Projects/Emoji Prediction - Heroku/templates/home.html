@@ -1,0 +1,40 @@
+<head>
+	<style type="text/css">
+		.css_class{
+			font-size: 50;
+		}
+		.button {
+		  background-color: #4CAF50; /* Green */
+		  border: none;
+		  color: white;
+		  padding: 15px 32px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		}
+		.field_class{
+			background-color: #FFFF00	;
+						font-size: 50;
+
+		}
+	</style>
+</head>
+<h1>Welcome to CHAT EMOTION DETECTION</h1>
+
+<form  method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.sep_len.label (class="css_class")}} {{form.sep_len (class="field_class") }}
+    <br>
+    <br>
+    <!-- {{ form.submit() }} -->
+    <input id="submit" name="submit" type="submit" value="Analyze" style="font-size: 50;">
+</form>
+<br>
+<br>
+<p>This model is trained on Chat dataset, so kindly input general text messages to get the sentiment prediction in the form of emoji. Currently predicting 5 emotions - Happy,Neutral/Sad, Sports/Playful, Love, Hungry/Food</p>
+<br>
+<h2>If you wish to help this model predict better you can submit a few text messages with labels in the form below</h2>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdP-eVvYT_IJADJg-ddq-1iSeFNFeiAXU4TM2TbIs71hk0gQ/viewform?embedded=true" width="100%" height="729" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+

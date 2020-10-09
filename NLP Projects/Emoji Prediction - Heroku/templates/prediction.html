@@ -1,0 +1,18 @@
+<h1>Prediction</h1>
+	<h2>Sentence: {{session['sep_len']}}</h2>
+<!-- <h2>Your Predicted Sentiment Class is: {{results}}</h2> -->
+
+{% if results == '0' %}
+<p style="font-size:100px">&#128150;</p>
+{% elif results == '1' %}
+<p style="font-size:100px">&#9917;</p>
+{% elif results == '2' %}
+<p style="font-size:100px">&#128512;</p>
+{% elif results == '3' %}
+<p style="font-size:100px">&#128529;</p>
+{% else %}
+<p style="font-size:100px">&#127860;</p>
+{% endif %}
+
+
+<a href="./">HOME</a>

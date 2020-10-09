@@ -3,6 +3,7 @@
 # NLP Emoji
 ![NLP OP](https://i.imgur.com/XeD2lNi.png)
 [NLP Emoji Notebook](https://github.com/mraniketr/DeepLearningProjects/blob/master/Sentiment_emoji_prediction2.ipynb)
+[Live Demo](https://emojipredictionaniket.herokuapp.com/)
 
 # AutoEncoder Noise Removal
 ![Gausian](https://i.imgur.com/QvcKss0.png)
